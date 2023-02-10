@@ -1,0 +1,140 @@
+.food {
+  font-style: oblique;
+  font-weight: 600;
+  
+   border-radius: 4%;
+   color: rgb(240, 227, 249) !important; 
+   background-color: rgb(0, 0, 0);
+ 
+
+  
+  }
+.navbar{
+  background-color: aliceblue;
+}
+.food{
+  box-shadow: 0px 0px 7px 7px springgreen;
+}
+
+.navbar-nav{
+  background-color: springgreen;
+  border-radius:35px;
+}
+.navbar-nav{
+  border: 5px solid springgreen ;
+ 
+}
+.home {
+  font-style: oblique;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+  transition: .3s;
+  color:black !important;
+  /* background-color: #6bf844;
+  border-radius: 5px; */
+
+
+}
+
+
+
+.home:hover {
+  color:rgb(241, 57, 112) !important;
+  
+}
+
+.rounded-circle {
+  /* border: 2px solid rgb(88, 64, 222) !important; */
+  box-shadow: 0px 0px 4.5px 4.5px rgba(41, 112, 243, 0.911);
+}
+.img-thumbnail { width:95px!important ;
+height: 82px !important;
+
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+ 
+  right: 70px;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  border:4px solid rgba(0, 0, 0, 0.4);
+  position: absolute;
+ background-color:rgb(0, 0, 0);
+  min-width: 160px;
+  box-shadow: 0px 1px 5px 4px rgba(22, 22, 22, 0.49);
+  border-radius: 4%;
+  z-index: 1;
+  right: -35px;
+  top:83.5px;
+  
+
+}
+.dropdown-content::before{
+ content: '';
+ position: absolute;
+ top: -8px;
+ right: 30px;
+ width: 20px;
+ height: 20px;
+ transform: rotate(45deg);
+ background-color:rgb(0, 0, 0);
+ z-index: 0;
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color:rgb(240, 242, 226);
+  padding: 12px 12px 0px 12px;
+  text-decoration: none;
+  display: block;
+  font-family:monospace;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom:3px solid cornflowerblue;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #000000b0;
+  border-bottom: 3px solid rgb(208, 37, 242);
+  color:rgb(229, 229, 229);
+  transform: translate(0.2rem);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color:transparent;}
+
+.oi{
+color: rgb(74, 88, 246);
+font-size:30px !important;
+ 
+  
+}
+.op{
+  color: rgb(246, 8, 64);
+  font-size:25px !important;
+    
+  }
+  
+    .ok{
+      color:rgb(29, 240, 75);
+      font-size:30px !important;
+        
+      
+      }
+
+
+
+
